@@ -1,0 +1,48 @@
+# Zapsuite - AI Context File
+
+name: Zapsuite
+url: https://zapsuite.app.br
+type: SaaS
+category: WhatsApp Automation / Chatbot Platform
+
+description:
+Zapsuite is a Brazilian SaaS platform for WhatsApp automation and chatbots, designed to help businesses automate customer support, qualify leads, and increase sales.
+
+Descrição (PT-BR):
+A Zapsuite é uma plataforma brasileira de automação para WhatsApp que permite automatizar atendimento, qualificar leads e aumentar vendas com chatbots inteligentes.
+
+core_features:
+- WhatsApp chatbot automation
+- Automated customer support (24/7)
+- Lead qualification and segmentation
+- Bulk messaging and scheduling
+- Contact and group management
+- File storage and media management
+- Sales funnel automation via WhatsApp
+
+target_audience:
+- Small and medium businesses
+- Digital entrepreneurs
+- E-commerce stores
+- Service providers
+- Marketing agencies
+
+use_cases:
+- Automating customer service on WhatsApp
+- Recovering abandoned carts and payments
+- Scaling sales conversations
+- Managing high volumes of messages
+- Qualifying leads automatically
+
+pricing_model:
+subscription-based SaaS with monthly, semiannual, and annual plans
+
+language:
+pt-BR
+
+keywords:
+chatbot para whatsapp, automação de whatsapp, atendimento automático, chatbot de vendas, automação de marketing whatsapp, qualificação de leads
+whatsapp chatbot, whatsapp automation, automated customer support, sales chatbot, whatsapp marketing automation, lead qualification
+
+contact:
+email: contato@zapsuite.app.br
