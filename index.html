@@ -7,7 +7,7 @@
     <title>Zapsuite | Chatbot 24h para WhatsApp e Automação de Vendas</title>
 
     <meta name="description"
-        content="A Zapsuite é um chatbot para WhatsApp focado em automação de vendas e atendimento automático. Qualifique leads 24 horas por dia e escale seus resultados no WhatsApp.">
+        content="A Zapsuite é um chatbot para WhatsApp focado em automação de vendas e atendimento. Qualifique leads 24 horas por dia e escale seus resultados no WhatsApp.">
     <meta name="keywords"
         content="chatbot para whatsapp, automação de whatsapp, atendimento automático, chatbot de vendas, ferramentas de whatsapp, qualificação de leads whatsapp, disparos em massa, bot para whatsapp">
     <meta name="author" content="Zapsuite">
@@ -66,7 +66,8 @@
       "@id": "https://zapsuite.app.br/#organization",
       "logo": "https://zapsuite.app.br/images/zapsuite-logo.png",
       "sameAs": [
-      "https://www.instagram.com/zapsuite/"
+      "https://www.instagram.com/zapsuite",
+      "https://www.youtube.com/@zapsuite"
       ],
       "contactPoint": {
         "@type": "ContactPoint",
@@ -494,12 +495,44 @@
                 <p>Automatizando conexões e impulsionando negócios no WhatsApp. Soluções completas de atendimento
                     automático e chatbots inteligentes para empresas.</p>
                 <address class="contact-info mt-4" style="font-style: normal;">
-                    <p>Dúvidas? Fale conosco:</p>
-                    <p><a href="mailto:contato@zapsuite.app.br"
-                            style="color: #cbd5e1; text-decoration: underline;">contato@zapsuite.app.br</a></p>
+                    <p>Ficou com alguma dúvida? Fale conosco:</p>
+                    <p><a id="email-link">Enviar e-mail</a></p>
                 </address>
+                <script>
+                    document.addEventListener("DOMContentLoaded", function () {
+                        const user = "contato";
+                        const domain = "zapsuite.app.br";
+                        document.getElementById("email-link").href = "mailto:" + user + "@" + domain;
+                    });
+                </script>
             </div>
             <nav class="footer-links" aria-label="Navegação do Rodapé">
+                <div class="link-group">
+                    <h4>Conheça nossas redes</h4>
+                    <div class="social-icons">
+                        <a href="https://www.youtube.com/@zapsuite" target="_blank" rel="noopener noreferrer"
+                            aria-label="YouTube">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                                fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                stroke-linejoin="round" class="feather feather-youtube">
+                                <path
+                                    d="M22.54 6.42a2.78 2.78 0 0 0-1.94-2C18.88 4 12 4 12 4s-6.88 0-8.6.46a2.78 2.78 0 0 0-1.94 2A29 29 0 0 0 1 11.75a29 29 0 0 0 .46 5.33A2.78 2.78 0 0 0 3.4 19c1.72.46 8.6.46 8.6.46s6.88 0 8.6-.46a2.78 2.78 0 0 0 1.94-2 29 29 0 0 0 .46-5.25 29 29 0 0 0-.46-5.33z">
+                                </path>
+                                <polygon points="9.75 15.02 15.5 11.75 9.75 8.48 9.75 15.02"></polygon>
+                            </svg>
+                        </a>
+                        <a href="https://www.instagram.com/zapsuite" target="_blank" rel="noopener noreferrer"
+                            aria-label="Instagram">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                                fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                stroke-linejoin="round" class="feather feather-instagram">
+                                <rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect>
+                                <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path>
+                                <line x1="17.5" y1="6.5" x2="17.51" y2="6.5"></line>
+                            </svg>
+                        </a>
+                    </div>
+                </div>
                 <div class="link-group">
                     <h4>Legal e Privacidade</h4>
                     <ul>
